@@ -17,6 +17,7 @@ a{
     cursor: default;
 }
 
+
 /* Navigation And Banner Section */
 header{
     height: 650px;
@@ -47,7 +48,15 @@ nav button{
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+nav button:hover{
+    background-color: #fbef05;
+    color: #000;
+    cursor: pointer;
+}
+
 #banner{
     text-align: center;
     margin: 0 auto;
@@ -75,6 +84,12 @@ nav button{
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+#banner button:hover{
+    background-color: #fbef05;
+    color: #000;
+    cursor: pointer;
 }
 
 /* Action Section */
@@ -118,7 +133,14 @@ main{
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
+.text button:hover{
+    background-color: #fbef05;
+    color: #000;
+    cursor: pointer;
+}
+
 #action img{
     border-radius: 48px;
 }
@@ -250,7 +272,14 @@ main{
     font-size: 15px;
     font-weight: 500;
     line-height: 150%;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
+#ready button:hover{
+    background-color: #fbef05;
+    color: #000;
+    cursor: pointer;
+}
+
 #ready img{
     display: block;
     border-radius: 48px;
@@ -275,7 +304,14 @@ main{
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
+#newsletter button:hover{
+    background-color: #fbef05;
+    color: #000;
+    cursor: pointer;
+}
+
 .n_text h2{
     width: 528px;
     color: #000;
@@ -344,10 +380,9 @@ footer div ul{
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
 }
 footer div ul li{
-
+    list-style-type: none;
 }
 footer div ul li a{
     color: #8987A1;
@@ -355,4 +390,7 @@ footer div ul li a{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+footer div ul li a:hover{
+    cursor: pointer;
 }
