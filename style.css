@@ -74,3 +74,48 @@ nav button{
     line-height: 150%;
 }
 
+/* Action Section */
+main{
+    margin: 0 auto;
+    width: 85%;
+}
+
+#action{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.text{
+    display: flex;
+    width: 517px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 23px;
+}
+.text h4{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+.text p{
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.text button{
+    height: 48px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+#action img{
+    border-radius: 48px;
+}
