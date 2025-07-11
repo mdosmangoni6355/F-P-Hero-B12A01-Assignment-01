@@ -257,3 +257,63 @@ main{
 }
 
 /* Newsletter Section */
+#newsletter{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+#newsletter button{
+    width: 500px;
+    border: none;
+    padding: 19px 101px;
+    gap: 10px;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.n_text h2{
+    width: 528px;
+    color: #000;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.n_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i-field{
+    margin-top: 5px;
+    display: flex;
+    width: 500px;
+    padding: 20px 32px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+}
+#message{
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    display: flex;
+    height: 135px;
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    padding: 20px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Footer Section */
