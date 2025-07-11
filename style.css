@@ -119,3 +119,39 @@ main{
 #action img{
     border-radius: 48px;
 }
+
+/* Productive User Section */
+#productive_user{
+    margin: 50px 0;
+    padding: 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+}
+.p_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.p_text h3{
+    color: #252432;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.num_card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.blue_text{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+}
+.num_title{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
