@@ -212,3 +212,48 @@ main{
 .date{
     color: #B3B3B3;
 }
+
+/* Ready Section */
+#ready{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 14px;
+    margin: 0 auto;
+    padding: 70px 150px;
+}
+#ready h2{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+}
+#ready p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 16;
+    font-weight: 400;
+    line-height: 140%;
+}
+#ready button{
+    margin: 0 auto;
+    width: 195px;
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 150%;
+}
+#ready img{
+    display: block;
+    border-radius: 48px;
+}
+
+/* Newsletter Section */
